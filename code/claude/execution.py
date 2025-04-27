@@ -6,7 +6,6 @@ class Execution:
         self.temperature = temperature
         self.top_p = top_p
         self.claude_key = args.claude_key
-        self.max_length = args.max_length
 
         self.client = anthropic.Anthropic(
             api_key= self.claude_key
@@ -15,7 +14,6 @@ class Execution:
     def execute(self, prompt):
         response = self.client.messages.create(
             model="claude-3-7-sonnet-20250219", 
-            max_tokens=self.max_length,
             temperature=self.temperature,
             top_p=self.top_p,
             system=(

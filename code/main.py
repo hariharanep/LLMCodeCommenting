@@ -6,12 +6,6 @@ from claude.execution import Execution as ExecutionClaude
 def args_init():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--max_length",
-        type=int,
-        default=2048,
-        help="max length of model's generation result",
-    )
-    parser.add_argument(
         "--openai_key",
         type=str,
         default="openai_key",
@@ -22,6 +16,12 @@ def args_init():
         type=str,
         default="openai_base",
         help="need openai base if using GPT-4",
+    )
+    parser.add_argument(
+        "--claude_key",
+        type=str,
+        default="claude_key",
+        help="need claude key if using claude",
     )
     args = parser.parse_args()
     return args
@@ -35,9 +35,9 @@ def load_input_data(file_path):
   except json.JSONDecodeError as e:
     print(f"Error: Failed to decode JSON - {e}")
 
-def write_output_data(result):
+def write_output_data(result, model):
   try:
-    with open("../output/output.json", 'w') as file:
+    with open("../output/" + model + "/output.json", 'w') as file:
       json.dump(result, file)
   except Exception as e:
     print(f"Error: Failed to write output data - {e}")
@@ -587,16 +587,20 @@ if __name__ == '__main__':
     dataset = load_input_data(file_path)
     prompt_examples = [0, 33, 9, 93]
     result = []
+    exe = None
+    model = ""
+    if args.openai_key != "openai_key":
+        exe = ExecutionGPT4
+        model = "gpt-4"
+    else:
+        exe = ExecutionClaude
+        model = "claude"
+
     for item in dataset:
        if int(item['id']) in prompt_examples:
-        continue
-       output = ""
+          continue
        prompt = generatePrompt(item['code'])
-       if args.openai_key != "openai_key":
-        exe = ExecutionGPT4
-        output = exe.execute(prompt)
-       else:
-        exe = ExecutionClaude
-        output = exe.execute(prompt)
+       output = exe.execute(prompt)
        result.append({"id" : item['id'], "llm_annotated_code" : output})
-    write_output_data(result)
+
+    write_output_data(result, model)

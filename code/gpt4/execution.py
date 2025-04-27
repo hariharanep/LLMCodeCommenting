@@ -7,14 +7,13 @@ class Execution:
         self.top_p = top_p
         self.openai_key = args.openai_key
         self.openai_base = args.openai_base
-        self.max_length = args.max_length
 
-    def execute(self, prompt):
         openai.api_key = self.openai_key
         openai.api_base = self.openai_base
+
+    def execute(self, prompt):
         response = openai.ChatCompletion.create(
             model="gpt-4",
-            max_tokens=self.max_length,
             messages=[
                 {
                     "role": "system", 
