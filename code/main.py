@@ -47,7 +47,7 @@ def generatePrompt(target_code):
 
 Your task is to follow the same style of annotations to annotate the methods in the target class provided below:
 
-Do **not** modify the code. Only provide annotations in the same style as the examples below.
+Do **not** modify the code. Only provide annotations in the same style as the examples below. Only return the annotated code for the target Python class without any additional text.
 
 ---
 
