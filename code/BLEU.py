@@ -11,7 +11,7 @@ def load_json_file(file_path):
     print(f"Error: Failed to decode JSON - {e}")
 
 if __name__ == "__main__":
-  file_path = "data/dataset.json"
+  file_path = "input_data/dataset.json"
   dataset = load_json_file(file_path)
   if dataset:
     for item in dataset:
