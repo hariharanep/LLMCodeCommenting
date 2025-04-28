@@ -16,6 +16,7 @@ class Execution:
             model="claude-3-7-sonnet-20250219", 
             temperature=self.temperature,
             top_p=self.top_p,
+            max_tokens=20000,
             system=(
                 "You are an expert software engineer and code annotator. Your task is to add "
                     "clear, concise, technically inline comments to the methods for the provided Python classes, without "
@@ -32,4 +33,4 @@ class Execution:
                 }
             ]
         )
-        return response.content
+        return response.content[0].text
