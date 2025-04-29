@@ -10,3 +10,6 @@ python main.py --claude_key <insert claude_api_key>
 
 cd code/eval
 python bleu-comparison.py
+
+cd code/eval
+python human-eval-scores.py
