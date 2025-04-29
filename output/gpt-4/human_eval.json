@@ -11,17 +11,17 @@
     },
     {
         "id" : "3",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"
     },
     {
         "id" : "4",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"
     },
     {
         "id" : "5",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "id" : "10",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
@@ -56,17 +56,17 @@
     },
     {
         "id" : "13",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
         "id" : "14",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
         "id" : "15",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
@@ -96,7 +96,7 @@
     },
     {
         "id" : "21",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "id" : "23",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"
     },
     {
@@ -121,17 +121,17 @@
     },
     {
         "id" : "26",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"  
     },
     {
         "id" : "27",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
         "id" : "28",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
@@ -141,12 +141,12 @@
     },
     {
         "id" : "30",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
         "id" : "31",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD" 
     },
     {
@@ -161,12 +161,12 @@
     },
     {
         "id" : "35",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"  
     },
     {
         "id" : "36",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"  
     },
     {
@@ -176,7 +176,7 @@
     },
     {
         "id" : "38",
-        "score_1": 1,
+        "score_1": 0.5,
         "score_2": "TBD"  
     },
     {
