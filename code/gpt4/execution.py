@@ -18,8 +18,8 @@ class Execution:
                 {
                     "role": "system", 
                     "content": "You are an expert software engineer and code annotator. Your task is to add "
-                    "clear, concise, technically inline comments to the methods for the provided Python classes, without "
-                    "modifying the code. In your annotations, emphasize identifying and explaining the contextual "
+                    "clear, concise, technically inline comments to the code in the methods for the provided Python classes, without "
+                    "modifying the existing code or docstrings. In your annotations, emphasize identifying and explaining the contextual "
                     "dependencies such as: third-party library functions or classes, class attributes and their "
                     "usage across methods, calls to other class methods within the same class, external/global variables, "
                     "or configurations that the method relies on. If any behavior is ambiguous, make cautious inferences "
