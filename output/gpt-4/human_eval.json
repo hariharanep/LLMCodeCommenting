@@ -12,177 +12,177 @@
     {
         "id" : "3",
         "score_1": 0.5,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "4",
         "score_1": 0.5,
-        "score_2": "TBD"
+        "score_2": 0.5
     },
     {
         "id" : "5",
         "score_1": 0.5,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "6",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "7",
         "score_1": 1,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "8",
         "score_1": 1,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "10",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "11",
         "score_1": 1,
-        "score_2": "TBD" 
+        "score_2": 0.5 
     },
     {
         "id" : "12",
         "score_1": 1,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "13",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "14",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 0.5 
     },
     {
         "id" : "15",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 0.5 
     },
     {
         "id" : "16",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "17",
         "score_1": 1,
-        "score_2": "TBD"   
+        "score_2": 1   
     },
     {
         "id" : "18",
         "score_1": 0.5,
-        "score_2": "TBD"   
+        "score_2": 0.5   
     },
     {
         "id" : "19",
         "score_1": 1,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "20",
         "score_1": 1,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "21",
         "score_1": 0.5,
-        "score_2": "TBD"
+        "score_2": 0.5
     },
     {
         "id" : "22",
         "score_1": 1,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "23",
         "score_1": 0.5,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "24",
         "score_1": 1,
-        "score_2": "TBD"   
+        "score_2": 1   
     },
     {
         "id" : "25",
         "score_1": 0.5,
-        "score_2": "TBD"   
+        "score_2": 0.5   
     },
     {
         "id" : "26",
         "score_1": 0.5,
-        "score_2": "TBD"  
+        "score_2": 0.5  
     },
     {
         "id" : "27",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 0.5 
     },
     {
         "id" : "28",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "29",
         "score_1": 1,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "30",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "31",
         "score_1": 0.5,
-        "score_2": "TBD" 
+        "score_2": 1 
     },
     {
         "id" : "32",
         "score_1": 0,
-        "score_2": "TBD" 
+        "score_2": 0 
     },
     {
         "id" : "34",
         "score_1": 1,
-        "score_2": "TBD"  
+        "score_2": 0.5  
     },
     {
         "id" : "35",
         "score_1": 0.5,
-        "score_2": "TBD"  
+        "score_2": 0.5  
     },
     {
         "id" : "36",
         "score_1": 0.5,
-        "score_2": "TBD"  
+        "score_2": 0.5  
     },
     {
         "id" : "37",
         "score_1": 1,
-        "score_2": "TBD"  
+        "score_2": 1  
     },
     {
         "id" : "38",
         "score_1": 0.5,
-        "score_2": "TBD"  
+        "score_2": 1  
     },
     {
         "id" : "39",
         "score_1": 0.5,
-        "score_2": "TBD"  
+        "score_2": 0.5  
     }
 
 ]
