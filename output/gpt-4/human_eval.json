@@ -2,12 +2,12 @@
     {
         "id" : "1",
         "score_1": 0.5,
-        "score_2": "TBD"
+        "score_2": 0.5
     },
     {
         "id" : "2",
         "score_1": 1,
-        "score_2": "TBD"
+        "score_2": 1
     },
     {
         "id" : "3",
