@@ -7,3 +7,6 @@ python main.py --openai_key <insert openai_key> --openai_base https://api.openai
 
 cd code 
 python main.py --claude_key <insert claude_api_key>
+
+cd code/eval
+python bleu-comparison.py
