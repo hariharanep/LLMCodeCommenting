@@ -52,4 +52,4 @@ python human-eval-scores.py
 | LLM                      | GPT-4 | Claude |
 | ------------------------ | ----- | ------ |
 | Average Human Eval Score | 0.82  | 0.93   |
-| Average BLEU Scores      | 0.65  | 0.67   |
+| Average BLEU Score       | 0.65  | 0.67   |
