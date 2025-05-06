@@ -3,7 +3,7 @@
 # Install python dependencies
 pip install -r requirements.txt
 
-# Log in to OpenAI
+# Create GPT-4 commented code
 cd code
 python main.py --openai_key <insert openai_key> --openai_base https://api.openai.com/v1
 
