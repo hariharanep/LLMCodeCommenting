@@ -47,3 +47,9 @@ python human-eval-scores.py
 │       └── output.json               # GPT-4 generated code
 └── requirements.txt                  # Python module versions
 ~~~
+# Results
+
+| LLM                      | GPT-4 | Claude |
+| ------------------------ | ----- | ------ |
+| Average Human Eval Score | 0.82  | 0.93   |
+| Average BLEU Scores      | 0.65  | 0.67   |
