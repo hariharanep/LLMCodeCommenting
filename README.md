@@ -32,7 +32,7 @@ python human-eval-scores.py
 │   │   └── execution.py              # Creates GPT-4 generated comments
 │   └── main.py
 ├── input_data
-│   └── dataset.json
+│   └── dataset.json                  # Human commented code from ClassEval classes
 ├── milestone_assignments
 │   ├── ProjectDemoPresentation.pptx  # Demonstration slides
 │   └── Team Project Proposal.pdf     # Initial project proposal
