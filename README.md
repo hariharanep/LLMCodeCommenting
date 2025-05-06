@@ -36,8 +36,10 @@ python human-eval-scores.py
 ├── input_data
 │   └── dataset.json                  # Human commented ClassEval code
 ├── milestone_assignments
+│   ├── ProgressReport.pdf            # Project Progress Report
 │   ├── ProjectDemoPresentation.pptx  # Demonstration slides
 │   └── Team Project Proposal.pdf     # Initial project proposal
+
 ├── output
 │   ├── claude
 │   │   ├── human_eval.json           # Human evaluation database for Claude code
