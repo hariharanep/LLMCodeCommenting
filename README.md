@@ -38,6 +38,7 @@ python human-eval-scores.py
 ├── milestone_assignments
 │   ├── ProgressReport.pdf            # Project Progress Report
 │   ├── ProjectDemoPresentation.pptx  # Demonstration slides
+│   ├── Research on AI LLM Commenting Existing Code.pdf    # Final Paper
 │   └── Team Project Proposal.pdf     # Initial project proposal
 
 ├── output
