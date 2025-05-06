@@ -19,4 +19,29 @@ python bleu-comparison.py
 cd code/eval
 python human-eval-scores.py
 ~~~
-
+~~~
+├── README.md
+├── code
+│   ├── BLEU.py
+│   ├── claude
+│   │   └── execution.py              # Creates Claude generated comments
+│   ├── eval
+│   │   ├── bleu-comparison.py        # Calculates BLEU scores
+│   │   └── human-eval-scores.py      # Calculates human evaluation scores
+│   ├── gpt4
+│   │   └── execution.py              # Creates GPT-4 generated comments
+│   └── main.py
+├── input_data
+│   └── dataset.json
+├── milestone_assignments
+│   ├── ProjectDemoPresentation.pptx  # Demonstration slides
+│   └── Team Project Proposal.pdf     # Initial project proposal
+├── output
+│   ├── claude
+│   │   ├── human_eval.json           # Human evaluation database for Claude code
+│   │   └── output.json               # Claude generated code
+│   └── gpt-4
+│       ├── human_eval.json           # Human evaluation database for GPT-4 code
+│       └── output.json               # GPT-4 generated code
+└── requirements.txt                  # Python module versions
+~~~
